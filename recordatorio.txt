@@ -1,0 +1,12 @@
+python -m pip install --user virtualenv  #instalar el gestor de entornos en la version de python
+python -m venv etl_env    # te ubicas en la carpeta donde se creara el entorno y lo creas
+cd etl_env/Scripts
+.\Activate.ps1    #https://es.stackoverflow.com/questions/546782/error-al-intentar-iniciar-entorno-virtual-de-python  xpromt
+
+etl_env/Scripts/activate.bat # como cmd administrador
+
+
+cmd
+etl_env/Scripts/activate # de bash te pasas a cmd y ejecutas activate https://www.youtube.com/watch?v=2kLYOzNb3uU&ab_channel=GabrielBarrera
+source etl_env/Scripts/activate  # puedes comprobar con el ejecutando pip list
+pip list # ves las librerias que tienes
